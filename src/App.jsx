@@ -23,7 +23,7 @@ function App() {
     <>
       {
         isLoading
-          ? <><Spinner /></>
+          ? <Spinner />
           : <>
             <h1>ADVICE # {advice.id}</h1>
             <p>&ldquo;{advice.advice}&rdquo;</p>
